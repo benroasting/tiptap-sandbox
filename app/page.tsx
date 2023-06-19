@@ -1,13 +1,12 @@
-import Tiptap from "./components/tiptap"
+import Tiptap from "./components/tiptap";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+    <main className="items-center justify-between p-24">
+      <div className="z-10 w-full items-center justify-between font-mono text-sm">
         Tip Tap Project
-
-        <Tiptap />
       </div>
+      <Tiptap content="... start typing here" />
     </main>
-  )
+  );
 }
